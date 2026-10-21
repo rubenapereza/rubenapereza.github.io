@@ -3,194 +3,348 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio de Rubén Pérez | Ingeniero de Sistemas</title>
+    <title>Rubén Pérez | Ingeniero de Sistemas y Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portafolio de Rubén Pérez, Ingeniero de Sistemas y desarrollador Full-Stack con experiencia en Django, Laravel, PostgreSQL, WordPress e infraestructura IT."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Rubén Pérez</h1>
-        <p>Ingeniero de Sistemas | Full-Stack Web Developer</p>
+    <header class="topbar" id="top">
+      <div class="topbar-inner">
+        <a href="#inicio" class="brand">RP<span>.</span></a>
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="menu" class="menu">
+          <a href="#about">Sobre mí</a>
+          <a href="#experience">Experiencia</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact" class="menu-cta">Contacto</a>
+        </nav>
       </div>
     </header>
 
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#about">Sobre Mí</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-
     <main>
-      <section id="about" class="section">
-        <h2>Sobre Mí</h2>
-        <p>
-          <strong>Ingeniero de Sistemas</strong> (Politécnico "Santiago Mariño",
-          2021-2026). Mi meta profesional es contribuir al desarrollo de
-          soluciones tecnológicas innovadoras, aplicando mis conocimientos y
-          aprendiendo nuevas herramientas en entornos dinámicos y colaborativos.
-          Cuento con experiencia real tanto en desarrollo backend y frontend
-          como en la administración y soporte de infraestructura tecnológica de
-          IT.
-        </p>
-      </section>
-
-      <section id="experience" class="section">
-        <h2>Experiencia Laboral</h2>
-
-        <div class="card">
-          <h3>Pasante de Sistemas</h3>
-          <span class="company">Condominio Centro Comercial Las Américas</span>
-          <span class="date">Septiembre 2025 – Mayo 2026</span>
-          <ul>
-            <li>
-              <strong>Desarrollo de Software:</strong> Diseño y desarrollo del
-              Sistema de Salud Ocupacional para el Servicio de Seguridad y Salud
-              en el Trabajo utilizando Django y PostgreSQL.
-            </li>
-            <li>
-              <strong>Redes y Dominios:</strong> Configuración de redes
-              empresariales y unión de equipos a dominios para la gestión
-              centralizada de usuarios.
-            </li>
-            <li>
-              <strong>Soporte Técnico:</strong> Instalación de Windows, software
-              corporativo y resolución integral de incidencias de hardware y
-              software.
-            </li>
-            <li>
-              <strong>Infraestructura:</strong> Gestión de inventario
-              tecnológico y mantenimiento preventivo de suministros críticos
-              (tóner, periféricos y reemplazo de baterías en UPS).
-            </li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Desarrollo y Edición Web (Freelance)</h3>
-          <span class="company">Independiente</span>
-          <span class="date">Diciembre 2024 – Agosto 2025</span>
-          <ul>
-            <li>
-              Diseño, creación y mantenimiento de páginas web personalizadas
-              utilizando WordPress y Elementor.
-            </li>
-            <li>
-              Edición y optimización de sitios web existentes para mejorar el
-              diseño, rendimiento y funcionalidad.
-            </li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Web Developer</h3>
-          <span class="company">Oplaics Consultants Corp.</span>
-          <span class="date">Agosto 2024 – Noviembre 2024</span>
-          <ul>
-            <li>
-              Creación de sitios web estilo landing page utilizando WordPress y
-              Elementor.
-            </li>
-            <li>
-              Desarrollo de proyectos utilizando Laravel, React, Git, APIs y
-              entornos Docker.
-            </li>
-            <li>
-              Implementación de asistentes virtuales utilizando la API de OpenAI
-              para funcionalidades personalizadas, con enfoque en backend y
-              resolución de problemas técnicos.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="skills" class="section">
-        <h2>Habilidades & Conocimientos</h2>
-        <div class="skills-container">
-          <div class="skills-category">
-            <h3>Técnicas</h3>
-            <ul>
-              <li>
-                <strong>Lenguajes:</strong> Python, PHP, Java, C++, VB.NET.
-              </li>
-              <li><strong>Frameworks:</strong> Django, Laravel, Bootstrap</li>
-              <li>
-                <strong>Bases de Datos:</strong> PostgreSQL, MySQL, Access
-              </li>
-              <li>
-                <strong>Tecnologías:</strong> Git, Docker, API REST, OpenAI API,
-                Gemini API, WordPress, Elementor.
-              </li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h3>Fortalezas Blandas</h3>
-            <ul>
-              <li>Gestión del tiempo y adaptabilidad.</li>
-              <li>Trabajo en equipo, comunicación efectiva y liderazgo.</li>
-              <li>
-                Resolución de problemas técnicos complejos y aprendizaje rápido.
-              </li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h3>Idiomas</h3>
-            <ul>
-              <li>Español (Nativo)</li>
-              <li>Inglés (Básico)</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section">
-        <h2>Proyectos Académicos Destacados</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>Sistemas de Gestión</h3>
-            <p>
-              Diseño y desarrollo de aplicaciones administrativas y de gestión
-              interna utilizando lenguajes como
-              <strong>VB.NET, C++, PHP, Java y Python</strong>
-            </p>
-          </div>
-          <div class="project-card">
-            <h3>Bases de Datos e Interfaces</h3>
-            <p>
-              Implementación de arquitecturas de datos relacionales robustas en
-              <strong>PostgreSQL, MySQL y Access</strong>, con interfaces
-              modernas y funcionales usando <strong>Bootstrap y Django</strong>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-section">
-        <h2>Contacto</h2>
-        <div class="contact-info">
-          <p>📍 Maracay, Aragua, Venezuela</p>
-          <p>📞 +58 412-8952525</p>
-          <p>
-            📧
-            <a href="mailto:rubenapereza@gmail.com">rubenapereza@gmail.com</a>
-          </p>
-          <p>
-            🌐
-            <a
-              href="https://www.linkedin.com/in/ruben-perez-a0350120b/"
-              target="_blank"
-              >linkedin.com/in/ruben-perez-a0350120b/</a
+      <!-- HERO -->
+      <section class="hero" id="inicio">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <span class="badge"
+              ><i></i> Disponible para nuevas oportunidades</span
             >
+            <h1>Hola, soy <span class="gradient-text">Rubén Pérez</span></h1>
+            <p class="hero-role">
+              Ingeniero de Sistemas · Full-Stack Web Developer
+            </p>
+            <p class="hero-lead">
+              Desarrollo soluciones web robustas y administro infraestructura
+              IT. Combino backend, frontend y soporte técnico para llevar ideas
+              a producción.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Contáctame</a>
+              <a href="#projects" class="btn btn-ghost">Ver proyectos</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>3</strong><span>Experiencias profesionales</span></li>
+              <li><strong>5</strong><span>Lenguajes de programación</span></li>
+              <li><strong>2026</strong><span>Ingeniería de Sistemas</span></li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <div class="code-window">
+              <div class="code-bar"><i></i><i></i><i></i></div>
+              <pre><code><span class="c-k">const</span> ruben = {
+  <span class="c-p">rol</span>: <span class="c-s">"Full-Stack Developer"</span>,
+  <span class="c-p">backend</span>: [<span class="c-s">"Django"</span>, <span class="c-s">"Laravel"</span>],
+  <span class="c-p">datos</span>: [<span class="c-s">"PostgreSQL"</span>, <span class="c-s">"MySQL"</span>],
+  <span class="c-p">extras</span>: [<span class="c-s">"Docker"</span>, <span class="c-s">"OpenAI API"</span>],
+  <span class="c-p">ubicacion</span>: <span class="c-s">"Maracay, VE"</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE MÍ -->
+      <section id="about" class="section">
+        <div class="container narrow reveal">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Tecnología con propósito</h2>
+          <p class="lead">
+            <strong>Ingeniero de Sistemas</strong> (Politécnico “Santiago
+            Mariño”, 2021-2026). Mi meta profesional es contribuir al desarrollo
+            de soluciones tecnológicas innovadoras, aplicando mis conocimientos
+            y aprendiendo nuevas herramientas en entornos dinámicos y
+            colaborativos.
           </p>
+          <p class="lead">
+            Cuento con experiencia real tanto en desarrollo backend y frontend
+            como en la administración y soporte de infraestructura tecnológica
+            de IT.
+          </p>
+        </div>
+      </section>
+
+      <!-- EXPERIENCIA -->
+      <section id="experience" class="section alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Trayectoria</p>
+            <h2>Experiencia laboral</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="t-item reveal">
+              <div class="t-dot"></div>
+              <div class="t-card">
+                <div class="t-meta">
+                  <span class="date">Sep 2025 – May 2026</span>
+                </div>
+                <h3>Pasante de Sistemas</h3>
+                <p class="company">Condominio Centro Comercial Las Américas</p>
+                <ul>
+                  <li>
+                    <strong>Desarrollo de Software:</strong> Diseño y desarrollo
+                    del Sistema de Salud Ocupacional para el Servicio de
+                    Seguridad y Salud en el Trabajo con Django y PostgreSQL.
+                  </li>
+                  <li>
+                    <strong>Redes y Dominios:</strong> Configuración de redes
+                    empresariales y unión de equipos a dominios para la gestión
+                    centralizada de usuarios.
+                  </li>
+                  <li>
+                    <strong>Soporte Técnico:</strong> Instalación de Windows,
+                    software corporativo y resolución integral de incidencias de
+                    hardware y software.
+                  </li>
+                  <li>
+                    <strong>Infraestructura:</strong> Gestión de inventario
+                    tecnológico y mantenimiento preventivo de suministros
+                    críticos (tóner, periféricos y reemplazo de baterías en
+                    UPS).
+                  </li>
+                </ul>
+                <div class="tags">
+                  <span>Django</span><span>PostgreSQL</span><span>Redes</span
+                  ><span>Soporte IT</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="t-item reveal">
+              <div class="t-dot"></div>
+              <div class="t-card">
+                <div class="t-meta">
+                  <span class="date">Dic 2024 – Ago 2025</span>
+                </div>
+                <h3>Desarrollo y Edición Web (Freelance)</h3>
+                <p class="company">Independiente</p>
+                <ul>
+                  <li>
+                    Diseño, creación y mantenimiento de páginas web
+                    personalizadas utilizando WordPress y Elementor.
+                  </li>
+                  <li>
+                    Edición y optimización de sitios web existentes para mejorar
+                    el diseño, rendimiento y funcionalidad.
+                  </li>
+                </ul>
+                <div class="tags">
+                  <span>WordPress</span><span>Elementor</span
+                  ><span>Optimización</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="t-item reveal">
+              <div class="t-dot"></div>
+              <div class="t-card">
+                <div class="t-meta">
+                  <span class="date">Ago 2024 – Nov 2024</span>
+                </div>
+                <h3>Web Developer</h3>
+                <p class="company">Oplaics Consultants Corp.</p>
+                <ul>
+                  <li>
+                    Creación de sitios web estilo landing page utilizando
+                    WordPress y Elementor.
+                  </li>
+                  <li>
+                    Desarrollo de proyectos utilizando Laravel, React, Git, APIs
+                    y entornos Docker.
+                  </li>
+                  <li>
+                    Implementación de asistentes virtuales utilizando la API de
+                    OpenAI para funcionalidades personalizadas, con enfoque en
+                    backend y resolución de problemas técnicos.
+                  </li>
+                </ul>
+                <div class="tags">
+                  <span>Laravel</span><span>React</span><span>Docker</span
+                  ><span>OpenAI API</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HABILIDADES -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Stack</p>
+            <h2>Habilidades y conocimientos</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-box reveal">
+              <h3>Lenguajes</h3>
+              <div class="chips">
+                <span>Python</span><span>PHP</span><span>Java</span
+                ><span>C++</span><span>VB.NET</span>
+              </div>
+            </div>
+            <div class="skill-box reveal">
+              <h3>Frameworks</h3>
+              <div class="chips">
+                <span>Django</span><span>Laravel</span><span>Bootstrap</span>
+              </div>
+            </div>
+            <div class="skill-box reveal">
+              <h3>Bases de datos</h3>
+              <div class="chips">
+                <span>PostgreSQL</span><span>MySQL</span><span>Access</span>
+              </div>
+            </div>
+            <div class="skill-box reveal">
+              <h3>Tecnologías</h3>
+              <div class="chips">
+                <span>Git</span><span>Docker</span><span>API REST</span
+                ><span>OpenAI API</span><span>Gemini API</span
+                ><span>WordPress</span><span>Elementor</span>
+              </div>
+            </div>
+            <div class="skill-box reveal">
+              <h3>Fortalezas blandas</h3>
+              <ul class="plain">
+                <li>Gestión del tiempo y adaptabilidad</li>
+                <li>Trabajo en equipo, comunicación efectiva y liderazgo</li>
+                <li>
+                  Resolución de problemas técnicos complejos y aprendizaje
+                  rápido
+                </li>
+              </ul>
+            </div>
+            <div class="skill-box reveal">
+              <h3>Idiomas</h3>
+              <ul class="plain">
+                <li><strong>Español</strong> · Nativo</li>
+                <li><strong>Inglés</strong> · Básico</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Portafolio</p>
+            <h2>Proyectos académicos destacados</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project reveal">
+              <div class="project-icon" aria-hidden="true">⚙️</div>
+              <h3>Sistemas de Gestión</h3>
+              <p>
+                Diseño y desarrollo de aplicaciones administrativas y de gestión
+                interna utilizando distintos lenguajes de programación.
+              </p>
+              <div class="tags">
+                <span>VB.NET</span><span>C++</span><span>PHP</span
+                ><span>Java</span><span>Python</span>
+              </div>
+            </article>
+            <article class="project reveal">
+              <div class="project-icon" aria-hidden="true">🗄️</div>
+              <h3>Bases de Datos e Interfaces</h3>
+              <p>
+                Implementación de arquitecturas de datos relacionales robustas,
+                con interfaces modernas y funcionales.
+              </p>
+              <div class="tags">
+                <span>PostgreSQL</span><span>MySQL</span><span>Access</span
+                ><span>Bootstrap</span><span>Django</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contact" class="section contact">
+        <div class="container narrow reveal">
+          <p class="eyebrow light">Contacto</p>
+          <h2>Trabajemos juntos</h2>
+          <p class="lead">
+            ¿Tienes un proyecto o una oportunidad en mente? Escríbeme y
+            conversemos.
+          </p>
+          <div class="contact-grid">
+            <a class="contact-item" href="mailto:rubenapereza@gmail.com">
+              <span class="ci-icon">📧</span>
+              <span><small>Correo</small>rubenapereza@gmail.com</span>
+            </a>
+            <a
+              class="contact-item"
+              href="https://www.linkedin.com/in/rubenapereza/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="ci-icon">🌐</span>
+              <span><small>LinkedIn</small>rubenapereza</span>
+            </a>
+            <a class="contact-item" href="tel:+584128952525">
+              <span class="ci-icon">📞</span>
+              <span><small>Teléfono</small>+58 412-8952525</span>
+            </a>
+            <div class="contact-item static">
+              <span class="ci-icon">📍</span>
+              <span><small>Ubicación</small>Maracay, Aragua, Venezuela</span>
+            </div>
+          </div>
+          <a href="mailto:rubenapereza@gmail.com" class="btn btn-primary big"
+            >Enviar un mensaje</a
+          >
         </div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2026 Rubén Pérez. Todos los derechos reservados.</p>
+      <div class="container footer-inner">
+        <p>&copy; 2026 Rubén Pérez. Todos los derechos reservados.</p>
+      </div>
     </footer>
   </body>
 </html>
